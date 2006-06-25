@@ -8,7 +8,8 @@ Group:		Applications
 Source0:	http://vztech.com.br/public/software/fakepop/%{name}-src-%{version}.tar.gz
 # Source0-md5:	9872ab86c626e44486ffd6016176713c
 URL:		http://vztech.com.br/public/software/fakepop/
-BuildRequires:	glib2-devel
+BuildRequires:	glib2-devel >= 2.0
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
