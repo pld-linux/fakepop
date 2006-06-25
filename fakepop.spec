@@ -1,4 +1,3 @@
-# TODO: optflags
 Summary:	Fake POP3 daemon, delivers same messages to all users
 Summary(pl):	Fa³szywy demon POP3, dostarczaj±cy te same wiadomo¶ci do wszystkich
 Name:		fakepop
@@ -9,6 +8,7 @@ Group:		Applications
 Source0:	http://vztech.com.br/public/software/fakepop/%{name}-src-%{version}.tar.gz
 # Source0-md5:	9872ab86c626e44486ffd6016176713c
 URL:		http://vztech.com.br/public/software/fakepop/
+BuildRequires:	glib2-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -38,7 +38,8 @@ swoje programy pocztowe do u¿ywania pop3-ssl zamiast pop3.
 
 %build
 %{__make} \
-	CC="%{__cc}"
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags} -D_GNU_SOURCE `pkg-config --cflags glib-2.0`"
 
 %install
 rm -rf $RPM_BUILD_ROOT
