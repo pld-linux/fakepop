@@ -1,5 +1,5 @@
 Summary:	Fake POP3 daemon, delivers same messages to all users
-Summary(pl):	Fa≥szywy demon POP3, dostarczaj±cy te same wiadomo∂ci do wszystkich
+Summary(pl.UTF-8):   Fa≈Çszywy demon POP3, dostarczajƒÖcy te same wiadomo≈õci do wszystkich
 Name:		fakepop
 Version:	8
 Release:	0.1
@@ -23,16 +23,16 @@ You can customize messages in /etc/fakepop/ directory to teach your
 users how they should configure their mail clients to use pop3-ssl
 instead of pop3.
 
-%description -l pl
-fakepop to fa≥szywy demon POP3. Zwraca wszystkim uøytkownikom zawsze
-te same wiadomo∂ci, niezaleønie od nazw uøytkownikÛw i hase≥.
-Wszystkie kombinacje nazw uøytkownika i hase≥ s± przyjmowane.
+%description -l pl.UTF-8
+fakepop to fa≈Çszywy demon POP3. Zwraca wszystkim u≈ºytkownikom zawsze
+te same wiadomo≈õci, niezale≈ºnie od nazw u≈ºytkownik√≥w i hase≈Ç.
+Wszystkie kombinacje nazw u≈ºytkownika i hase≈Ç sƒÖ przyjmowane.
 
-G≥Ûwnym celem fakepop jest doradzenie uøytkownikom, øe serwer
-przyjmuje wy≥±cznie po≥±czenia pop3-ssl, a oni maj± b≥Ídnie
-skonfigurowane pop3 bez SSL. Komunikaty moøna zmieniÊ w katalogu
-/etc/fakepop/, aby pouczyÊ uøytkownikÛw, jak powinni skonfigurowaÊ
-swoje programy pocztowe do uøywania pop3-ssl zamiast pop3.
+G≈Ç√≥wnym celem fakepop jest doradzenie u≈ºytkownikom, ≈ºe serwer
+przyjmuje wy≈ÇƒÖcznie po≈ÇƒÖczenia pop3-ssl, a oni majƒÖ b≈Çƒôdnie
+skonfigurowane pop3 bez SSL. Komunikaty mo≈ºna zmieniƒá w katalogu
+/etc/fakepop/, aby pouczyƒá u≈ºytkownik√≥w, jak powinni skonfigurowaƒá
+swoje programy pocztowe do u≈ºywania pop3-ssl zamiast pop3.
 
 %prep
 %setup -q
