@@ -1,5 +1,5 @@
 Summary:	Fake POP3 daemon, delivers same messages to all users
-Summary(pl.UTF-8):   Fałszywy demon POP3, dostarczający te same wiadomości do wszystkich
+Summary(pl.UTF-8):	Fałszywy demon POP3, dostarczający te same wiadomości do wszystkich
 Name:		fakepop
 Version:	8
 Release:	0.1
