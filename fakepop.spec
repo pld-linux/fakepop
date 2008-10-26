@@ -4,7 +4,7 @@ Name:		fakepop
 Version:	8
 Release:	0.1
 License:	GPL
-Group:		Applications
+Group:		Networking/Daemons/POP3
 Source0:	http://vztech.com.br/public/software/fakepop/%{name}-src-%{version}.tar.gz
 # Source0-md5:	9872ab86c626e44486ffd6016176713c
 URL:		http://vztech.com.br/public/software/fakepop/
