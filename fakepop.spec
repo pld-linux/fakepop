@@ -10,6 +10,7 @@ Source0:	http://vztech.com.br/public/software/fakepop/%{name}-src-%{version}.tar
 URL:		http://vztech.com.br/public/software/fakepop/
 BuildRequires:	glib2-devel >= 2.0
 BuildRequires:	pkgconfig
+Provides:	pop3daemon
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
